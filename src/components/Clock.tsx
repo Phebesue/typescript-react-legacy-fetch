@@ -29,8 +29,8 @@ class Clock extends React.Component<AcceptedProps, ClockState> {
     return (
       <div>
         <h1>{this.state.time.toLocaleTimeString()}</h1>
-        <p>{this.props.testProp}</p>
-        <p>{this.props.optionalProp}</p>
+        {/* <p>{this.props.testProp}</p> */}
+        {/* <p>{this.props.optionalProp}</p> */}
       </div>
     );
   }

@@ -10,9 +10,7 @@ const Display: FunctionComponent<(AcceptedProps)> = (props) => {
   <div>
 
 <h3>Temp in F: {props.temp}</h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
+
   </div>
   )
 };
